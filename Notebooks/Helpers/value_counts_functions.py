@@ -23,4 +23,23 @@ class ValueCounts:
             print("\n")
             print(self.df[col].value_counts())
             print("---------------------")
-        
+
+    def valcounts_percentage(self):
+        """
+        Return the percentage of value counts.
+
+        :param columns: Categorical columns dataframe
+        :type columns: DataFrame
+        :param df: Main DataFrame
+        :type df: DataFrame
+
+        :return None:
+        """
+
+        assert len(self.columns) != 0
+
+        for col in self.columns:
+            print(f"Value Counts Percentage for {col}")
+            print("\n")
+            print(self.df[col].value_counts() / self.df.shape[0] * 100)
+            print("---------------------")

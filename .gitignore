@@ -1,3 +1,4 @@
 .idea
 .ipynb_checkpoints
 venv
+Notebooks\Helpers\__pycache__
