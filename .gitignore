@@ -3,3 +3,4 @@
 venv
 Notebooks\Helpers\__pycache__
 Notebooks\Helpers\__pycache__\value_counts_functions.cpython-39.pyc
+.vscode
